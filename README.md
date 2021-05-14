@@ -22,17 +22,28 @@ Para uma aplicação que necessite processar grandes quantidades de dados é ind
 - Processador
 - Conexão de rede
 - Disco rígido
-- Sistema Operacional (SO) - Windows, Mac ou Linux (no caso do Linux escolher uma distribuição: Debian, Ubuntu, RedHat...)
+- Sistema Operacional (SO) - Windows, Mac ou Linux (no caso do Linux escolher uma distribuição: Debian, Ubuntu, RedHat...).
 
 É possível ter um servidor sem precisar necessáriamente criá-lo em um computador físico, por meio da máquina virtual (vm) que é um ambiente de virtualização para simulação de um ou vários sistemas operacionais. Alguns exemplos de vms:
 
 - VirtualBox
 - VMware
-- Azure
+- Azure e entre outras.
 
 <div id='servicos'/>
 
 ## Serviços de hospedagem
+
+Existem diversas plataformas que prestam serviços de hospedagem. As plataformas abaixo são serviços de hospedagem em nuvem, para utilizá-los é preciso pagar, porém algumas dessas oferecem funcionalidades que são gratuitas:
+
+- DigitalOcean
+- Microsoft Azure
+- IBM
+- Amazon Web Services (AWS) e entre outras.
+
+Como alternativa, a plataforma abaixo permite criar um serviço de hospedagem gratuito:
+
+- Vagrant: é um software para gerencia de ambientes de desenvolvimento virtuais combinado ao VirtualBox.
 
 <div id='servidor'/>
 
