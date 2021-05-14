@@ -49,6 +49,31 @@ Como alternativa, a plataforma abaixo permite criar um serviço de hospedagem gr
 
 ## Configurações e acesso ao servidor
 
+O servidor não tem interface e tudo será feito por linha de comando no terminal. Para um servidor funcionar ele precisa das seguintes configurações básicas:
+
+- Nome de usuário
+- Host (domínio ou endereço ip)
+- Senha (será gerada uma senha aleatória)
+
+O servidor é acessado por meio de um cliente SSH que vai entrar na máquina virtual remotamente. As opções abaixo podem ser usadas para acessar um servidor:
+
+- Linux e Mac: OpenSSH (muitas vezes já vem instalado)
+- Windows: Putty
+
+Comandos de acesso ao servidor:
+
+`$ ssh ssh://usuario@dominio.com:2222` 
+
+ou 
+
+`$ ssh usuario@<endereco-ip-servidor>`
+
+Outras configurações que podem ser feitas para o servidor:
+
+    Privilégios de acesso do usuários e segurança do servidor
+    Ufw ferramenta de Firewall - analisa o trafego da rede e ajuda a gerenciar o que pode ser executado no servidor 
+    Banco de dados (MySQL, MariaDB, PostgreSQL, Oracle...)
+    
 <div id='aplicacao'/>
 
 ## Aplicação web
