@@ -16,7 +16,7 @@ Sumário
 
 Desenvolver aplicações robustas exige planejamento, é necessário pensar em questões sobre segurança, tecnologias, banco de dados e entre outros. Antes de hospedar uma aplicação é importante saber o quanto ela irá exigir do servidor, por exemplo, se vai consumir pouca ou muita memória. 
 
-Para uma aplicação que necessite processar grandes quantidades de dados é indicado usar um servidor físico, designado a um único usuário. Sendo importante definir algumas especificações de infraestrutura do servidor:
+Para uma aplicação que necessite processar grandes quantidades de dados é indicado usar um servidor físico, designado a um único usuário. Sendo importante definir algumas especificações de hardware, software e rede:
 
 - Memória
 - Processador
