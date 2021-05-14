@@ -2,7 +2,7 @@
 
 *******
 Sumário
- 1. [Escolha do ambiente: servidor](#ambiente)
+ 1. [Infraestrutura do servidor](#infraestrutura)
  2. [Serviços de hospedagem](#servicos)
  3. [Configurações e acesso ao servidor](#servidor)
  4. [Aplicação web](#aplicacao)
@@ -10,9 +10,9 @@ Sumário
 
 *******
 
-<div id='ambiente'/>
+<div id='infraestrutura'/>
 
-## Escolha do ambiente: servidor
+## Infraestrutura do servidor
 
 Desenvolver aplicações robustas exige planejamento, é necessário pensar em questões sobre segurança, tecnologias, banco de dados e entre outros. Antes de hospedar uma aplicação é importante saber o quanto ela irá exigir do servidor, por exemplo, se vai consumir pouca ou muita memória. 
 
