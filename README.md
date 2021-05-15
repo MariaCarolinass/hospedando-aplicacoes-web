@@ -14,14 +14,14 @@ Sumário
 
 ## Infraestrutura
 
-Aplicações robustas demandam planejamento, é importante saber sobre questões de segurança, desempenho e o quanto sistema vai precisar de memória. É possível hospedar uma aplicação em um servidor físico que é designado a um único usuário. Também utilizar de máquinas virtuais (vms) para criar o próprio servidor, as vms são ambientes de virtualização que simulam um ou vários sistemas operacionais (so). 
+Aplicações robustas demandam planejamento, é importante saber sobre questões de segurança, desempenho e o quanto o sistema vai precisar de memória. É possível hospedar uma aplicação em um servidor físico que é designado a um único usuário. Também utilizar de máquinas virtuais (vms) para criar o próprio servidor, as vms são ambientes de virtualização que simulam um ou vários sistemas operacionais (so). 
 
 Máquinas virtuais:
 
 - [VirtualBox](https://www.virtualbox.org/)
 - [VMware](https://www.vmware.com/br.html)
 
-Ao longo da criação do servidor algumas especificações de hardware, software e rede poderão ser definidas:
+Ao longo da criação do servidor algumas especificações de hardware, software e rede devem ser definidas:
 
     Memória
     Processador
@@ -33,16 +33,24 @@ Ao longo da criação do servidor algumas especificações de hardware, software
 
 ## Serviços de hospedagem
 
-Existem diversas plataformas que prestam serviços de hospedagem. As plataformas abaixo são serviços de hospedagem em nuvem, para utilizá-los é preciso pagar, porém algumas dessas oferecem funcionalidades que são gratuitas:
+Existem diversas plataformas que oferecem serviços de hospedagem, muitas delas usam o conceito de computação em nuvem, são elas:
 
 - [DigitalOcean](https://www.digitalocean.com/)
 - [IBM](https://www.ibm.com/br-pt)
 - [Microsoft Azure](https://azure.microsoft.com/pt-br/) 
 - [Amazon Web Services (AWS)](https://aws.amazon.com/pt/)
 
-Como alternativa, a plataforma abaixo permite criar um serviço de hospedagem gratuito:
+Como alternativa as plataformas pagas:
 
-- [Vagrant](https://www.vagrantup.com/): é um software para gerencia de ambientes de desenvolvimento virtuais combinado ao VirtualBox.
+- [Vagrant](https://www.vagrantup.com/): serviço de hospedagem combinado ao VirtualBox
+
+### Servidores web (HTTP):
+
+Os servidores abaixo são responsáveis por responderem às solicitações (HTTP) dos clientes no navegador:
+
+ - [Apache](https://www.apache.org/)
+ - [Gunicorn](https://gunicorn.org/)
+ - [Nginx](https://nginx.org/) (servidor intermediário): responde às requisições de clientes que solicitam recursos de outros servidores (E-mail: IMAP, POP3)
 
 <div id='servidor'/>
 
