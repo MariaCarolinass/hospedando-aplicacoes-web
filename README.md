@@ -77,6 +77,10 @@ Outras configurações que podem ser feitas para o servidor:
 
 ## Aplicação web
 
+**Tecnologias:** A tecnologia base de um sistema web é o HTML que pode ser combinado junto ao CSS e JavaScript essas tecnologias compõe o frontend (parte de interação com o usuário). A estrutura do sistema é desenvolvido por meio das linguagens de programação, Python, JavaScript, PHP e entre outras que são parte do backend (parte não visivel ao usuário). Todas essas tecnologias podem ser usadas com os frameworks, Flask, Django, Vue, React, Angular e vários outros.
+
+**Código-fonte:** A ferramenta [Git](https://git-scm.com/) ajuda na organização e controle de versão dos códigos. E o [GitHub](https://github.com/) é uma plataforma para hospedagem do código-fonte. O Git junto ao GitHub ajudam no processo de desenvolvimento do sistema, além de simplificar a instalação do projeto em qualquer ambiente.
+
 <div id='links'/>
 
 ## Links
