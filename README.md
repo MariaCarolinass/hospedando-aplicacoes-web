@@ -2,7 +2,7 @@
 
 *******
 Sumário
- 1. [Infraestrutura do servidor](#infraestrutura)
+ 1. [Infraestrutura](#infraestrutura)
  2. [Serviços de hospedagem](#servicos)
  3. [Configurações e acesso ao servidor](#servidor)
  4. [Aplicação web](#aplicacao)
@@ -12,22 +12,22 @@ Sumário
 
 <div id='infraestrutura'/>
 
-## Infraestrutura do servidor
+## Infraestrutura
 
-Desenvolver aplicações robustas exige planejamento, é necessário pensar em questões sobre segurança, tecnologias, banco de dados e entre outros. Antes de hospedar uma aplicação é importante saber o quanto ela irá exigir do servidor, por exemplo, se vai consumir pouca ou muita memória. 
+Aplicações robustas demandam planejamento, é importante saber sobre questões de segurança, desempenho e o quanto sistema vai precisar de memória. É possível hospedar uma aplicação em um servidor físico que é designado a um único usuário. Também utilizar de máquinas virtuais (vms) para criar o próprio servidor, as vms são ambientes de virtualização que simulam um ou vários sistemas operacionais (so). 
 
-Para uma aplicação que necessite processar grandes quantidades de dados é indicado usar um servidor físico, designado a um único usuário. Sendo importante definir algumas especificações de hardware, software e rede:
-
-- Memória
-- Processador
-- Conexão de rede
-- Disco rígido
-- Sistema Operacional (SO) - Windows, Mac ou Linux (no caso do Linux escolher uma distribuição: Debian, Ubuntu, RedHat...).
-
-É possível ter um servidor sem precisar necessáriamente criá-lo em um computador físico, por meio da máquina virtual (vm) que é um ambiente de virtualização para simulação de um ou vários sistemas operacionais. Alguns exemplos de vms:
+Máquinas virtuais:
 
 - [VirtualBox](https://www.virtualbox.org/)
 - [VMware](https://www.vmware.com/br.html)
+
+Ao longo da criação do servidor algumas especificações de hardware, software e rede poderão ser definidas:
+
+    Memória
+    Processador
+    Conexão de rede
+    Disco rígido
+    Sistema Operacional (SO)
 
 <div id='servicos'/>
 
