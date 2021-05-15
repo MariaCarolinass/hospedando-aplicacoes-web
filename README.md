@@ -4,7 +4,7 @@
 Sumário
  1. [Infraestrutura](#infraestrutura)
  2. [Serviços de hospedagem](#servicos)
- 3. [Configurações e acesso ao servidor](#servidor)
+ 3. [Configuração e acesso ao servidor](#servidor)
  4. [Aplicação web](#aplicacao)
  5. [Links](#links)
 
@@ -54,32 +54,35 @@ Os servidores abaixo são responsáveis por responderem às solicitações (HTTP
 
 <div id='servidor'/>
 
-## Configurações e acesso ao servidor
+## Configuração e acesso ao servidor
 
-O servidor não tem interface e tudo será feito por linha de comando no terminal. Para um servidor funcionar ele precisa das seguintes configurações básicas:
+O servidor não tem interface e tudo será feito através de linha de comando no terminal. As seguintes configurações básicas abaixo são necessárias para o servidor funcionar:
 
-- Nome de usuário
-- Host (domínio ou endereço ip)
-- Senha (será gerada uma senha aleatória)
+    Nome do usuário
+    Host (domínio ou endereço IP)
+    Senha (será gerado uma chave aleatória)
 
-O servidor é acessado por meio de um cliente SSH que vai entrar na máquina virtual remotamente. As opções abaixo podem ser usadas para acessar um servidor:
+Uma das formas de acessar o servidor é utilizando um cliente SSH, que vai entrar no servidor remotamente. 
 
-- Linux e Mac: [OpenSSH](https://www.openssh.com/) (muitas vezes já vem instalado)
+Cliente SSH:
+
+- Linux e Mac: [OpenSSH](https://www.openssh.com/)
 - Windows: [Putty](https://www.putty.org/)
 
-Comandos de acesso ao servidor:
+Comandos para acessar o servidor:
 
-`$ ssh ssh://usuario@dominio.com:2222` 
+`$ ssh ssh://usuario@dominio.com:porta` 
 
 ou 
 
 `$ ssh usuario@<endereco-ip-servidor>`
 
-Outras configurações que podem ser feitas para o servidor:
+Outras configurações do servidor:
 
-    Privilégios de acesso do usuários e segurança do servidor
-    Ufw ferramenta de Firewall - analisa o trafego da rede e ajuda a gerenciar o que pode ser executado no servidor 
-    Banco de dados (MySQL, MariaDB, PostgreSQL, Oracle...)
+- Permissões e privilégios de usuários
+- Segurança
+- Firewall (ufw) - analisa o trafego da rede e gerência o que pode ser executado no servidor 
+- Banco de dados (MySQL, MariaDB, PostgreSQL, Oracle...)
     
 <div id='aplicacao'/>
 
