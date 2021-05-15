@@ -26,9 +26,8 @@ Para uma aplicação que necessite processar grandes quantidades de dados é ind
 
 É possível ter um servidor sem precisar necessáriamente criá-lo em um computador físico, por meio da máquina virtual (vm) que é um ambiente de virtualização para simulação de um ou vários sistemas operacionais. Alguns exemplos de vms:
 
-- VirtualBox
-- VMware
-- Azure e entre outras.
+- [VirtualBox](https://www.virtualbox.org/)
+- [VMware](https://www.vmware.com/br.html)
 
 <div id='servicos'/>
 
@@ -36,14 +35,14 @@ Para uma aplicação que necessite processar grandes quantidades de dados é ind
 
 Existem diversas plataformas que prestam serviços de hospedagem. As plataformas abaixo são serviços de hospedagem em nuvem, para utilizá-los é preciso pagar, porém algumas dessas oferecem funcionalidades que são gratuitas:
 
-- DigitalOcean
-- Microsoft Azure
-- IBM
-- Amazon Web Services (AWS) e entre outras.
+- [DigitalOcean](https://www.digitalocean.com/)
+- [IBM](https://www.ibm.com/br-pt)
+- [Microsoft Azure](https://azure.microsoft.com/pt-br/) 
+- [Amazon Web Services (AWS)](https://aws.amazon.com/pt/)
 
 Como alternativa, a plataforma abaixo permite criar um serviço de hospedagem gratuito:
 
-- Vagrant: é um software para gerencia de ambientes de desenvolvimento virtuais combinado ao VirtualBox.
+- [Vagrant](https://www.vagrantup.com/): é um software para gerencia de ambientes de desenvolvimento virtuais combinado ao VirtualBox.
 
 <div id='servidor'/>
 
@@ -57,8 +56,8 @@ O servidor não tem interface e tudo será feito por linha de comando no termina
 
 O servidor é acessado por meio de um cliente SSH que vai entrar na máquina virtual remotamente. As opções abaixo podem ser usadas para acessar um servidor:
 
-- Linux e Mac: OpenSSH (muitas vezes já vem instalado)
-- Windows: Putty
+- Linux e Mac: [OpenSSH](https://www.openssh.com/) (muitas vezes já vem instalado)
+- Windows: [Putty](https://www.putty.org/)
 
 Comandos de acesso ao servidor:
 
