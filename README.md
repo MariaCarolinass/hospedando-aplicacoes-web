@@ -121,3 +121,37 @@ O Git junto ao GitHub ajudam no processo de desenvolvimento do sistema, além de
 <div id='links'/>
 
 ## Links
+
+Aprenda sobre programação:
+
+- https://www.cursoemvideo.com/
+- https://www.w3schools.com/
+- https://developer.mozilla.org/pt-BR/
+
+Configurando um servidor Apache 2:
+
+-https://github.com/MariaCarolinass/config-servidor-apache2
+
+Aprenda a desenvolver uma aplicação web completa com Python e Flask:
+
+- https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world
+
+Deploy de uma aplicação Flask no Linux:
+
+- https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-xvii-deployment-on-linux
+- https://youtu.be/YFBRVJPhDGY
+- https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps
+
+O que é uma infraestrutura de TI:
+
+- https://www.redhat.com/pt-br/topics/cloud-computing/what-is-it-infrastructure
+
+Servidores físicos vs. máquinas virtuais: principais diferenças e semelhanças:
+
+- https://www.nakivo.com/blog/physical-servers-vs-virtual-machines-key-differences-similarities/
+
+Distribuições Linux:
+
+- https://www.debian.org/
+- https://ubuntu.com/
+- https://www.linuxmint.com/
