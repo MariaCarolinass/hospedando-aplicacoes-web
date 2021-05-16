@@ -18,7 +18,7 @@ Sumário
 
 Aplicações robustas demandam planejamento, é importante saber sobre questões de segurança, desempenho e o quanto o sistema vai precisar de memória. É possível hospedar uma aplicação em um servidor físico que é designado a um único usuário. Também utilizar de máquinas virtuais (vms) para criar o próprio servidor, as vms são ambientes de virtualização que simulam um ou vários sistemas operacionais (so). 
 
-Máquinas virtuais:
+**Máquinas virtuais:**
 
 - [VirtualBox](https://www.virtualbox.org/)
 - [VMware](https://www.vmware.com/br.html)
@@ -66,7 +66,7 @@ O servidor não tem interface e tudo será feito através de linha de comando no
 
 Uma das formas de acessar o servidor é utilizando um cliente SSH, que vai entrar no servidor remotamente. 
 
-Cliente SSH:
+**Cliente SSH:**
 
 - Linux e Mac: [OpenSSH](https://www.openssh.com/)
 - Windows: [Putty](https://www.putty.org/)
