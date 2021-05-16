@@ -130,7 +130,7 @@ Aprenda sobre programação:
 
 Configurando um servidor Apache 2:
 
--https://github.com/MariaCarolinass/config-servidor-apache2
+- https://github.com/MariaCarolinass/config-servidor-apache2
 
 Aprenda a desenvolver uma aplicação web completa com Python e Flask:
 
