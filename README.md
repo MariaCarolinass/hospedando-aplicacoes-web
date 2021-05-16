@@ -1,5 +1,7 @@
 # Hospedagem de aplicações web
 
+Aplicações web, servidores e serviços de hospedagem.
+
 *******
 Sumário
  1. [Infraestrutura](#infraestrutura)
