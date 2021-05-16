@@ -42,7 +42,7 @@ Existem diversas plataformas que oferecem serviços de hospedagem, muitas delas 
 - [Microsoft Azure](https://azure.microsoft.com/pt-br/) 
 - [Amazon Web Services (AWS)](https://aws.amazon.com/pt/)
 
-Como alternativa as plataformas pagas:
+Uma alternativa gratuita:
 
 - [Vagrant](https://www.vagrantup.com/): serviço de hospedagem combinado ao VirtualBox
 
