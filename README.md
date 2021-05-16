@@ -122,15 +122,15 @@ O Git junto ao GitHub ajudam no processo de desenvolvimento do sistema, além de
 
 ## Links
 
+Configurando um servidor Apache 2:
+
+- https://github.com/MariaCarolinass/config-servidor-apache2
+
 Aprenda sobre programação:
 
 - https://www.cursoemvideo.com/
 - https://www.w3schools.com/
 - https://developer.mozilla.org/pt-BR/
-
-Configurando um servidor Apache 2:
-
-- https://github.com/MariaCarolinass/config-servidor-apache2
 
 Aprenda a desenvolver uma aplicação web completa com Python e Flask:
 
