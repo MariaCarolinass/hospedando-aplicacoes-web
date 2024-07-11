@@ -16,7 +16,7 @@ Sumário
 
 ## Infraestrutura
 
-Aplicações robustas demandam planejamento, é importante saber sobre questões de segurança, desempenho e o quanto o sistema vai precisar de memória. É possível hospedar uma aplicação em um servidor físico que é designado a um único usuário. Também utilizar de máquinas virtuais (vms) para criar o próprio servidor, as vms são ambientes de virtualização que simulam um ou vários sistemas operacionais (so). 
+Aplicações robustas demandam planejamento, pois é importante saber sobre questões de segurança, desempenho e o quanto o sistema vai precisar de memória. É possível hospedar uma aplicação em um servidor físico designado a um único usuário ou utilizar máquinas virtuais (VMs) para criar o próprio servidor. As VMs são ambientes de virtualização que simulam um ou vários sistemas operacionais (SO).
 
 **Máquinas virtuais:**
 
